@@ -1,0 +1,40 @@
+
+
+.logo{
+    padding-left: 50px;
+    color: black;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 50vw;
+    height: 50vh;
+    padding-left: 70px;
+    border: 2px;
+
+}
+.input{
+    padding-top: 10px;
+}
+
+.name .surname .address .country .city .phone .mail .pass{
+    padding-bottom: 30px;
+}
+
+.Register{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    padding-bottom: 20px;
+}
+.pic{
+     background:url(../pictures/back.jpg);
+    background-size:cover;
+    height: 80%;
+    border-radius:  15px;
+} 
+
